@@ -1,14 +1,11 @@
-name: "OS"
+name: OS
 description: File a bug report
-title: "Feature: "
+title: "[Feature:] "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
   - type: input
     id: contact
     attributes:
