@@ -43,7 +43,6 @@ body:
           - Linux
           - Android
           - ios
-      value: "A bug happened!"
     validations:
       required: true
   - type: textarea
