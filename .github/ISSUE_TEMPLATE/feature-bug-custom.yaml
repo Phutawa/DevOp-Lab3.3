@@ -23,7 +23,7 @@ body:
     attributes:
       label: Type of request?
       description: Select the tpye of your request
-      placeholder: Tell us what you see!
+      placeholder: New Feature
       option: 
           - Window
           - macOS
@@ -36,7 +36,13 @@ body:
     id: request type
     attributes:
       label: What is the OS which you want to suggest?
-      placeholder: Selections:
+      placeholder: Selections :
+      option: 
+          - Window
+          - macOS
+          - Linux
+          - Android
+          - ios
       value: "A bug happened!"
     validations:
       required: true
