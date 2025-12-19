@@ -1,4 +1,4 @@
-name: Bug Report
+name: OS
 description: File a bug report
 title: "Feature: "
 labels: ["bug", "triage"]
@@ -24,7 +24,12 @@ body:
       label: Type of request?
       description: Select the tpye of your request
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      option: 
+          - Window
+          - macOS
+          - Linux
+          - Android
+          - ios
     validations:
       required: true
   - type: dropdown
