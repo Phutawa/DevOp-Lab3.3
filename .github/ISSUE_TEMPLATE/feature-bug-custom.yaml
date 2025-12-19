@@ -1,4 +1,4 @@
-name: OS
+name: Feature bug
 description: File a bug report
 title: "[Feature:] "
 labels: ["bug", "triage"]
